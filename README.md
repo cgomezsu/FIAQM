@@ -1,6 +1,6 @@
 # FIAQM
 
-Code for the evaluation of the FIAQM method through experiments run in Mininet network emulator.
+Code for the evaluation of the FIAQM method through experiments run in Mininet network emulator and using PyTorch.
 
 NOTE: This code is the software implementation of the experiments described in the following paper:
 
