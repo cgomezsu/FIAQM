@@ -175,12 +175,12 @@ lo1.cmd('/usr/sbin/sshd -p 54321')
 
 # Start learning process on Learning Orchestrator
 lo1.cmd('source PyTorch/bin/activate')              # Activate virtual environment where PyTorch is installed        
-lo1.cmd('python lo_train.py.py &')
+lo1.cmd('python lo_train.py &')
 lo1.cmd('python lo_predict.py &')
 
 # Start learning process on Local Learner A
 lla1.cmd('source PyTorch/bin/activate')                      
-lla1.cmd('python ll_train.py.py &')
+lla1.cmd('python ll_train.py &')
 
 # Receive predictions
 
